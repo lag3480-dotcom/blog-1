@@ -14,8 +14,8 @@ AI 도구·IT 활용 가이드 블로그. 목표는 Google AdSense 수익. 운�
 - 이미 있는 글과 주제가 겹치지 않게 `ls src/content/posts` 로 확인한다.
 
 ## 발행
-- 하루 1편 꼴. `pubDate`를 `YYYY-MM-DDT07:00:00+09:00`으로 미래 날짜를 주면 매일 07:00 KST 빌드 때 자동 공개된다.
-- 마지막 예약 글 다음 날짜부터 이어서 예약한다: `grep -h '^pubDate' src/content/posts/*.md | sort | tail -1`
+- 하루 2편 (2026-10-22 운영자 결정). 발행 슬롯은 매일 07:00, 19:00 KST이며 그 시각에 자동 빌드된다. `pubDate: YYYY-MM-DDT07:00:00+09:00` 또는 `T19:00:00+09:00`.
+- 오늘 이후 **가장 이른 빈 슬롯** 부터 채운다. 예약 현황: `grep -h '^pubDate' src/content/posts/*.md | sort`
 - `npx astro build` 성공 확인 후 main에 바로 커밋·푸시.
 - 주제 후보는 `docs/backlog.md`. 쓴 주제는 목록에서 지운다.
 
