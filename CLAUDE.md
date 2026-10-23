@@ -19,5 +19,12 @@ AI 도구·IT 활용 가이드 블로그. 목표는 Google AdSense 수익. 운�
 - `npx astro build` 성공 확인 후 main에 바로 커밋·푸시.
 - 주제 후보는 `docs/backlog.md`. 쓴 주제는 목록에서 지운다.
 
+## 제휴 링크 (쿠팡 파트너스)
+- **애드센스 승인 전에는 넣지 않는다.** `site.config`의 `coupangPartners`가 `false`이면 쿠팡 링크가 든 글은 빌드가 실패한다. 승인 후 운영자가 파트너스 가입을 마치면 `true`로 바꾼다.
+- 링크는 운영자가 쿠팡 파트너스에서 만든 단축 링크(`https://link.coupang.com/a/...`)만 마크다운 링크로 넣는다. 대가성 문구(글 첫머리), `rel="sponsored nofollow"`는 빌드가 자동으로 붙인다.
+- 글의 목적은 문제 해결이다. 상품은 그 해결에 실제로 필요한 경우에만(예: 화면 분할 글의 모니터 케이블, 백업 글의 외장 SSD) 글 끝 "준비물" 단락에 1~3개. 상품 소개만 하는 글, 상품 리뷰 글은 쓰지 않는다(써 보지 않았으므로).
+- 제휴 링크가 든 글은 전체 글의 20% 이하로 유지한다. 가격·"최저가"·"할인" 표현은 쓰지 않는다. 사양은 제조사 공식 자료로 확인한다.
+- "구매하면 도움이 됩니다" 같은 구매 권유·클릭 유도 문구 금지.
+
 ## 설정
-- `src/site.config.mjs`: url, base, email, adsenseClient. 커스텀 도메인 연결 시 url을 도메인으로, base를 '/'로.
+- `src/site.config.mjs`: url, base, email, adsenseClient, coupangPartners. 커스텀 도메인 연결 시 url을 도메인으로, base를 '/'로.
