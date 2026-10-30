@@ -7,8 +7,6 @@
 ## 구글 서비스
 
 ## AI 활용법
-- AI로 이메일 쓰기: 상황별 프롬프트 (요청, 거절, 사과, 독촉)
-- AI로 엑셀 수식 만들기와 오류 고치기
 - ChatGPT 맞춤 지침(Custom Instructions) 설정법
 - Claude 프로젝트 기능 사용법
 - Gemini를 Gmail·구글 문서에서 쓰는 법
