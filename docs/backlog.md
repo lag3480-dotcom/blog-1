@@ -8,8 +8,6 @@
 
 ## AI 활용법
 - ChatGPT 맞춤 지침(Custom Instructions) 설정법
-- Claude 프로젝트 기능 사용법
-- Gemini를 Gmail·구글 문서에서 쓰는 법
 - AI 이미지 생성 프롬프트 작성법
 - AI 답변의 환각(거짓 정보) 줄이는 법과 사실 확인 방법
 
