@@ -11,5 +11,5 @@ export const SITE = {
   daumWebmasterPin: '#DaumWebMasterTool:e3e8c132b13048e48264d4a55e372d093561494a4afe1b1f7bae697569c7373a:WoYFtMaR84eZ7MaX1Xjw9A==',
   // 쿠팡 파트너스 가입·애드센스 승인 후 true. 꺼져 있으면 글에 쿠팡 링크가 있을 때 빌드가 실패한다.
   coupangPartners: false,
-  adsenseClient: '', // 예: 'ca-pub-0000000000000000' (승인 후 입력)
+  adsenseClient: 'ca-pub-9933714802626161', // 애드센스 게시자 ID (기존 계정)
 };
